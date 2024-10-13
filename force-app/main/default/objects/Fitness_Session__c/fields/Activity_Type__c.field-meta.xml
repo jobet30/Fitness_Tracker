@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Activity Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cardio</fullName>
+                <default>false</default>
+                <label>Cardio</label>
+            </value>
+            <value>
+                <fullName>Strength Training</fullName>
+                <default>false</default>
+                <label>Strength Training</label>
+            </value>
+            <value>
+                <fullName>Yoga</fullName>
+                <default>false</default>
+                <label>Yoga</label>
+            </value>
+            <value>
+                <fullName>Pilates</fullName>
+                <default>false</default>
+                <label>Pilates</label>
+            </value>
+            <value>
+                <fullName>High-Intensity Interval Training (HIIT)</fullName>
+                <default>false</default>
+                <label>High-Intensity Interval Training (HIIT)</label>
+            </value>
+            <value>
+                <fullName>Dance</fullName>
+                <default>false</default>
+                <label>Dance</label>
+            </value>
+            <value>
+                <fullName>Cycling</fullName>
+                <default>false</default>
+                <label>Cycling</label>
+            </value>
+            <value>
+                <fullName>Swimming</fullName>
+                <default>false</default>
+                <label>Swimming</label>
+            </value>
+            <value>
+                <fullName>CrossFit</fullName>
+                <default>false</default>
+                <label>CrossFit</label>
+            </value>
+            <value>
+                <fullName>Martial Arts</fullName>
+                <default>false</default>
+                <label>Martial Arts</label>
+            </value>
+            <value>
+                <fullName>Stretching</fullName>
+                <default>false</default>
+                <label>Stretching</label>
+            </value>
+            <value>
+                <fullName>Outdoor Activity</fullName>
+                <default>false</default>
+                <label>Outdoor Activity</label>
+            </value>
+            <value>
+                <fullName>Functional Training</fullName>
+                <default>false</default>
+                <label>Functional Training</label>
+            </value>
+            <value>
+                <fullName>Team Sports</fullName>
+                <default>false</default>
+                <label>Team Sports</label>
+            </value>
+            <value>
+                <fullName>Zumba</fullName>
+                <default>false</default>
+                <label>Zumba</label>
+            </value>
+            <value>
+                <fullName>Aerobics</fullName>
+                <default>false</default>
+                <label>Aerobics</label>
+            </value>
+            <value>
+                <fullName>Running</fullName>
+                <default>false</default>
+                <label>Running</label>
+            </value>
+            <value>
+                <fullName>Walking</fullName>
+                <default>false</default>
+                <label>Walking</label>
+            </value>
+            <value>
+                <fullName>Core Training</fullName>
+                <default>false</default>
+                <label>Core Training</label>
+            </value>
+            <value>
+                <fullName>Meditation</fullName>
+                <default>false</default>
+                <label>Meditation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
