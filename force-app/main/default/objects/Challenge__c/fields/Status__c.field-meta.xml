@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
+    <externalId>false</externalId>
     <label>Status</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
@@ -10,19 +11,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Not Started</fullName>
+                <fullName>Active</fullName>
                 <default>false</default>
-                <label>Not Started</label>
-            </value>
-            <value>
-                <fullName>In Progress</fullName>
-                <default>false</default>
-                <label>In Progress</label>
-            </value>
-            <value>
-                <fullName>On Hold</fullName>
-                <default>false</default>
-                <label>On Hold</label>
+                <label>Active</label>
             </value>
             <value>
                 <fullName>Completed</fullName>
@@ -30,14 +21,9 @@
                 <label>Completed</label>
             </value>
             <value>
-                <fullName>Canceled</fullName>
+                <fullName>Cancelled</fullName>
                 <default>false</default>
-                <label>Canceled</label>
-            </value>
-            <value>
-                <fullName>Archived</fullName>
-                <default>false</default>
-                <label>Archived</label>
+                <label>Cancelled</label>
             </value>
         </valueSetDefinition>
     </valueSet>

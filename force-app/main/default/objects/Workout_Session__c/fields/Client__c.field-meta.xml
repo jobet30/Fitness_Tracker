@@ -2,10 +2,11 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Client__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
     <label>Client</label>
     <referenceTo>Account</referenceTo>
-    <relationshipLabel>Goals</relationshipLabel>
-    <relationshipName>Goals</relationshipName>
+    <relationshipLabel>Workout Sessions</relationshipLabel>
+    <relationshipName>Workout_Sessions</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

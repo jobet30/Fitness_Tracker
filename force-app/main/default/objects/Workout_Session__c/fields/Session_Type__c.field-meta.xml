@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Session Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Strength Training</fullName>
+                <default>false</default>
+                <label>Strength Training</label>
+            </value>
+            <value>
+                <fullName>Cardio</fullName>
+                <default>false</default>
+                <label>Cardio</label>
+            </value>
+            <value>
+                <fullName>Flexibility</fullName>
+                <default>false</default>
+                <label>Flexibility</label>
+            </value>
+            <value>
+                <fullName>HIIT (High-Intensity Interval Training)</fullName>
+                <default>false</default>
+                <label>HIIT (High-Intensity Interval Training)</label>
+            </value>
+            <value>
+                <fullName>Yoga</fullName>
+                <default>false</default>
+                <label>Yoga</label>
+            </value>
+            <value>
+                <fullName>Pilates</fullName>
+                <default>false</default>
+                <label>Pilates</label>
+            </value>
+            <value>
+                <fullName>Endurance Training</fullName>
+                <default>false</default>
+                <label>Endurance Training</label>
+            </value>
+            <value>
+                <fullName>Sports Conditioning</fullName>
+                <default>false</default>
+                <label>Sports Conditioning</label>
+            </value>
+            <value>
+                <fullName>Bodyweight Exercises</fullName>
+                <default>false</default>
+                <label>Bodyweight Exercises</label>
+            </value>
+            <value>
+                <fullName>Functional Training</fullName>
+                <default>false</default>
+                <label>Functional Training</label>
+            </value>
+            <value>
+                <fullName>Circuit Training</fullName>
+                <default>false</default>
+                <label>Circuit Training</label>
+            </value>
+            <value>
+                <fullName>Dance Fitness</fullName>
+                <default>false</default>
+                <label>Dance Fitness</label>
+            </value>
+            <value>
+                <fullName>Cycling</fullName>
+                <default>false</default>
+                <label>Cycling</label>
+            </value>
+            <value>
+                <fullName>Swimming</fullName>
+                <default>false</default>
+                <label>Swimming</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
